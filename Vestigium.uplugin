@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+    "FriendlyName" : "Vestigium footsteps and foot prints plugin",
+    "Description" : " Vestigium stands for foot print in latin, this plugin aims ot simplify footsteps and footprints for animations with the Unreal Engine Editor ",
+    "Category" : "footsteps",
+    "CreatedBy" : "Noé Perard-Gayot",
+    "CreatedByURL" : "https://noe.perardgayot.dev",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : false,
+  "Modules": [
+    {
+      "Name": "Vestigium",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+	  "WhitelistPlatforms": [ "Win64", "Win32", "HTML5", "Mac", "IOS", "Android" ]
+    },
+    {
+      "Name": "VestigiumEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+	  "WhitelistPlatforms": [ "Win64", "Win32", "Mac", "Linux" ]
+    }
+  ]
+}

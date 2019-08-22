@@ -1,0 +1,8 @@
+{
+	"BuildId": "5660361",
+	"Modules": 
+	{
+		"Vestigium": "UE4Editor-Vestigium.dll",
+		"VestigiumEditor": "UE4Editor-VestigiumEditor.dll"
+	}
+}
