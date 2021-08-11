@@ -1,5 +1,5 @@
 #include "..\Public\VestigiumEditor.h"
-// Noé Perard-Gayot <noe.perard@gmail.com> 2019 - All Rights Reserved
+// NoÃ© Perard-Gayot <noe.perard@gmail.com> 2019 - All Rights Reserved
 
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
@@ -92,4 +92,4 @@ void FVestigiumEditor::RegisterAssetTypeAction(class IAssetTools& AssetTools, TS
 }
 
 
-
+#undef LOCTEXT_NAMESPACE
